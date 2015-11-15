@@ -55,9 +55,14 @@
    },
    "release_status" : "unstable",
    "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/spiritloose/JQ/issues"
+      },
+      "homepage" : "https://github.com/spiritloose/JQ",
       "repository" : {
          "type" : "git",
-         "url" : "git://bitbucket.org/spiritloose/jq.git"
+         "url" : "git://github.com/spiritloose/JQ.git",
+         "web" : "https://github.com/spiritloose/JQ"
       }
    },
    "version" : "0.01",
