@@ -94,7 +94,7 @@ CODE:
     if (!jq_compile(jq, program)) {
         jq_set_error_cb(jq, NULL, NULL);
         jq_teardown(&jq);
-        croak_sv(err);
+        croak("%s", SvPV_nolen(err));
     }
     jq_set_error_cb(jq, NULL, NULL);
     RETVAL = jq;
